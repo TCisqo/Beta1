@@ -7,5 +7,5 @@ class Animal(models.Model):
     idade = models.IntegerField()
 
     def __str__(self):
-        return f'Espécie: (self.especie) Nome: (self.nome)' 
+        return f'{self.especie} {self.nome} {self.idade}' 
 

@@ -7,4 +7,4 @@ class Pessoa (models.Model):
     idade = models.IntegerField()
 
     def __str__(self):
-        return f'Nome: (self.nome) Idade: (self.idade)'
+        return f'{self.nome} {self.idade}'
